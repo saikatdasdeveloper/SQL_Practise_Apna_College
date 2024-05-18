@@ -17,3 +17,7 @@ INSERT INTO students (roll_no,name,marks,grade,city) VALUES
 (106,"Farah",85,"B","Delhi");
 
 SELECT DISTINCT city FROM students;
+
+SELECT * FROM students WHERE city="Mumbai";
+
+SELECT * FROM students WHERE marks > 70;
